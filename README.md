@@ -14,23 +14,3 @@ The Red Carpet Website is currently under construction and will soon be your one
 ## Contributing 
 
 If you'd like to contribute to this website, feel free to fork the repository and submit pull requests. Please see the CONTRIBUTING.md file (if you have one) for details on contribution guidelines.
-
-
-# Red Carpet
-
-**Welcome to the Red Carpet project!**
-
-!["Red Carpet Animated Text"](https://github.com/username/repo/raw/branch/path/to/your/animation.gif)
-
-This project is about... (describe your project)
-
-**Features:**
-
-* ...
-* ...
-* ...
-
-**Getting Started:**
-
-... (instructions)
-
