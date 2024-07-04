@@ -1,0 +1,62 @@
+.blog-button-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /* Force 5 columns */
+      grid-gap: 10px;  /* Maintain spacing between buttons */
+      margin: 10px auto;
+      /* Removed padding: 10px; */
+    }
+
+    .blog-button {
+      display: flex; /* Stack elements vertically */
+      /* Added a new section for the article title bar */
+      flex-direction: column;
+      align-items: flex-end; /* Text at bottom (adjusted in .button-text) */
+      /* Removed padding: 10px;  */
+      border: none;
+      border-radius: 20px; /* Increased corner roundness */
+      overflow: hidden; /* Hide overflowing content */
+      cursor: pointer;
+      position: relative; /* Enable for shadow and hover effects */
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); /* Increased shadow values */
+      transition: box-shadow 0.2s ease-in-out; /* Transition for hover shadow */
+    }
+
+    .blog-button .article-title {
+      background-color: #333; /* Dark gray background */
+      color: #fff; /* White text color */
+      padding: 5px 10px; /* Add some padding (adjust as needed) */
+      font-weight: bold; /* Bold text */
+      /* Added styles for positioning within the button */
+      width: 100%; /* Span the full button width */
+      position: absolute;
+      top: 0; /* Position at the top */
+    }
+
+    .blog-button img {
+      width: 100%;  /* Cover button area */
+      height: 100%;  /* Cover button area */
+      object-fit: cover; /* Ensure image fills entire button */
+      transition: transform 0.2s ease-in-out; /* Animate image on hover */
+    }
+
+    .blog-button .button-text {
+      position: absolute; /* Position text on bottom (adjusted with flexbox) */
+      bottom: 10px; /* Move text up slightly from absolute bottom (adjust as needed) */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%); /* Account for offset */
+      color: #fff; /* Text color */
+      text-align: center; /* Centered text */
+      font-weight: bold; /* Bold text */
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+      padding: 5px 10px; /* Add some padding (adjust as needed) */
+      border-radius: inherit; /* Inherit rounded corners from button */
+      opacity: 1; /* Make text visible by default */
+    }
+
+    .blog-button:hover { /* Enhance hover effects */
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Further increased shadow values */
+      .button-text {
+        /* Inverted hover effect - move text slightly up */
+        transform: translateX(-50%) translateY(-2px); /* Adjust as needed */
+      }
+    }
