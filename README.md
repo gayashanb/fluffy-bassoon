@@ -1,28 +1,22 @@
-# Red Carpet
+# Red Carpet Website
 
-[![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+This repository hosts the source code for the [Red Carpet Website](https://gayashanb.github.io/red-carpet/).
 
-Red Carpet is a user-friendly tool that helps you achieve your goals. 
+## Description
 
-Visit the official website for more information and comprehensive documentation: [Red Carpet Website](https://gayashanb.github.io/red-carpet/).
+The Red Carpet Website is a [brief description of your website's purpose and target audience]. It utilizes various technologies (mention technologies used if relevant, e.g., HTML, CSS, JavaScript).
 
-## Features
+## Technologies Used (Optional)
 
-* Feature 1: Detailed explanation of feature 1
-* Feature 2: Detailed explanation of feature 2
-* Feature 3: Detailed explanation of feature 3
+* HTML
+* CSS
+* JavaScript (if applicable)
+* [Other technologies]
 
-## Installation (if applicable)
+## Contributing (Optional)
 
-### Windows
+If you'd like to contribute to this website, feel free to fork the repository and submit pull requests. Please see the CONTRIBUTING.md file (if you have one) for details on contribution guidelines.
 
-1. Download the latest release from the Releases tab.
-2. Extract the downloaded file.
-3. Run the executable file.
+## License
 
-### macOS/Linux
-
-1. Clone this repository:
-
-   ```bash
-   git clone [invalid URL removed]
+This project is licensed under the [License name] License - see the LICENSE.md file for details.
