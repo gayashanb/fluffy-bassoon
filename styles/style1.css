@@ -1,4 +1,4 @@
-.blog-button-container {
+    .blog-button-container {
       display: grid;
       grid-template-columns: repeat(5, 1fr); /* Force 5 columns */
       grid-gap: 10px;  /* Maintain spacing between buttons */
@@ -26,10 +26,13 @@
       color: #fff; /* White text color */
       padding: 5px 10px; /* Add some padding (adjust as needed) */
       font-weight: bold; /* Bold text */
-      /* Added styles for positioning within the button */
-      width: 100%; /* Span the full button width */
+      /* Increased width and adjusted positioning for centering */
+      width: calc(100% + 20px); /* Add 20px extra width (adjust as needed) */
       position: absolute;
       top: 0; /* Position at the top */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%); /* Account for offset and center text */
+      text-align: center; /* Centered text */
     }
 
     .blog-button img {
